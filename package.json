@@ -1,0 +1,30 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "web scrapper for retail prices",
+  "main": "scrapper.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cherio": "^1.0.0-rc.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benzuba/scrapper.git"
+  },
+  "keywords": [
+    "web",
+    "scrapper"
+  ],
+  "author": "Ben Zuba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Benzuba/scrapper/issues"
+  },
+  "homepage": "https://github.com/Benzuba/scrapper#readme"
+}
