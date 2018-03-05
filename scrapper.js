@@ -49,13 +49,16 @@ rp(options) //
                 shirts[j]['link'] = (link_options.uri);
                 shirts[j]['time'] = (new Date());
 
+
+
           })
           .catch(function (err) {
               console.log("something went wrong in the second crawl")
           })
 // CREATE CSV WRITE TO FILE ===============================
           .finally(function(){
-            if (shirts.length === links.length){
+            let j = link_options.index;
+            if (j === links.length - 1){
             const Json2csvParser = require('json2csv').Parser;
             const fields = ['title', 'price', 'image', 'link', 'time'];
             const json2csvParser = new Json2csvParser({ fields });
