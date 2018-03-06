@@ -45,7 +45,7 @@ rp(options) //
                 shirts[j] = {};
                 shirts[j]['title'] = $('.breadcrumb').text().slice(9);
                 shirts[j]['price'] = $('h1 span').text();
-                shirts[j]['image'] = $('img').attr('src');
+                shirts[j]['image'] = 'http://shirts4mike.com/' + $('img').attr('src');
                 shirts[j]['link'] = (link_options.uri);
                 shirts[j]['time'] = (new Date());
 
